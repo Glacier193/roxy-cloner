@@ -22,8 +22,8 @@ jobs:
     
     - name: Run Server Cloner Bot
       env:
-        TOKEN: ${{ MTQ4NDE0MDAxMjQ3NDk5MDY0Mw.G5rCSb.aceZH_4C022h3hGjTs0dxNhfH8pwBqjK2gtF3o }}
-        ALLOWED_USER_IDS: ${{ 1484140012474990643 }}
+        TOKEN: ${{ secrets.MTQ4NDE0MDAxMjQ3NDk5MDY0Mw.G5rCSb.aceZH_4C022h3hGjTs0dxNhfH8pwBqjK2gtF3o }}
+        ALLOWED_USER_IDS: ${{ secrets.1484140012474990643 }}
       run: |
         echo "🚀 Starting Discord Server Cloner Bot..."
         echo "🤖 Bot will now listen for !clone commands on Discord"
